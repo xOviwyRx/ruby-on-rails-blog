@@ -26,20 +26,22 @@ rails server
 ```
 
 Visit `http://localhost:3000`
-Usage
 
-Browse articles at `/articles`
-Create new articles with the "New Article" button
-Edit or delete existing articles
+## Usage
 
-Database
+- Browse articles at `/articles`
+- Create new articles with the "New Article" button
+- Edit or delete existing articles
+
+## Database
+
 Uses SQLite3 with an articles table containing:
 
-Title
-Body
-Timestamps
+- Title
+- Body
+- Timestamps
 
-Routes
+## Routes
 
 `GET /articles` - List articles
 
